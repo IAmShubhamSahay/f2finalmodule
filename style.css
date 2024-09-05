@@ -1,0 +1,39 @@
+.upperinput {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.user-entry {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+.userContainer {
+    flex-grow: 10; /* Take up remaining space */
+    margin-right: 1000px; /* Space between data and button */
+}
+
+.deleteButton {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.user-entry{
+    border: 1 px solid black;
+}
